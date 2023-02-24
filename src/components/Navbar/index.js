@@ -8,10 +8,11 @@ import styled from 'styled-components'
   const Navbar=()=>{
       return(
         <div className='navbar'>
-        <div>      
-            <div className="logo" >
-                <h2 className="logo-text">Ibrahim Profile</h2>
-            </div> 
+             
+        <div class="content">
+          <h2 id="class1">NOVEL Gad</h2>
+            <h2 id ="class2" >NOVEL Gad</h2> 
+            </div>
             <ul className="ul-list">
                 <li className="list-item"><Link to="/">Home</Link></li>
                 <li className="list-item"><a href="#">Work</a></li>
@@ -21,7 +22,7 @@ import styled from 'styled-components'
                 <li className="list-item"><Link to="./contact">Contact</Link></li>
             </ul>
             
-        </div> 
+        
      </div>     
       
           

@@ -7,16 +7,17 @@ import Index from './components/index';
      return(
     <div> 
     
-       
+     
        <BrowserRouter> 
         <Navbar/>
+        <Index/>
       <Routes>
           <Route exact path="/" element={<Index/>} />
-        <Route  path="/contact" element={<Contact/>} /> 
+          
+          <Route  path="/contact" element={<Contact/>} /> 
       
       </Routes>
-        
-        
+      
      </BrowserRouter>
     </div>
         

@@ -11,7 +11,7 @@ import Contact from '../Contact'
     render(){
       return(
          <div>
-           <Home/>  
+          <Home/>  
           <Work/>  
           <Portfolio/>  
           <Profile/>  

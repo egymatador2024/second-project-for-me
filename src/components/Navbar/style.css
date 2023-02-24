@@ -1,13 +1,55 @@
 .navbar {
-    padding: 20px 0;
+    padding: 10px 0;
     overflow: hidden;
     background: #fff;
     position: relative;
     border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
     
 }
 
-.navbar .logo {
+
+
+content h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+.content h2:nth-child(1){
+   color:white;
+    -webkit-text-stroke:1px #4e4e4f;
+}
+.content h2:nth-child(2){
+    color:#4e4e4f;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,100%{
+        clip-path: polygon(0% 45% ,15% 44% ,32% 50% ,
+        54% 60% , 70% 61% ,84% 59%, 100% 52% , 100% 100% ,0% 100% );
+    }
+    50%{
+        clip-path: polygon(0% 60% ,16% 65% ,34% 66% ,
+        51% 62% , 67% 50% ,84% 45%, 100% 46% , 100% 100% ,0% 100% );
+    }
+}
+#class1{
+    position: relative;
+   font-size: 50px;
+   margin-left: 40px;
+   margin-top: 30px;
+}
+#class2{
+    font-size: 50px;
+    position: absolute;
+    top:10px;
+    margin-left: 40px;
+    margin-top:30px;
+    
+}
+
+ /* .navbar .logo {
     width: 50%;
     float: left;
 }
@@ -17,7 +59,7 @@
     font-weight: bold;
     margin-left:90px;
    
-}
+}  */
 
 .navbar input , .navbar label {
     position: absolute;
@@ -30,7 +72,7 @@
     float: left;
     list-style: none;
     padding: 0%;
-   
+   margin-top: 40px;
 }
 
 .navbar .ul-list .list-item {
