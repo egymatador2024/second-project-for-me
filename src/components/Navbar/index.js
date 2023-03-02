@@ -10,8 +10,8 @@ import styled from 'styled-components'
         <div className='navbar'>
              
         <div class="content">
-          <h2 id="class1">NOVEL Gad</h2>
-            <h2 id ="class2" >NOVEL Gad</h2> 
+          <h2 id="class1">Ebrahim Gad</h2>
+            <h2 id ="class2" >Ebrahim Gad</h2> 
             </div>
             <ul className="ul-list">
                 <li className="list-item"><Link to="/">Home</Link></li>
